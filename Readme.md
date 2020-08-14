@@ -54,15 +54,15 @@ Assuming you have all the requirements installed, you can setup and run the proj
 
 ### Android
 
-- `npm react-native run-android` to start the metro bundler, in a dedicated terminal
+- `npx react-native run-android` to start the metro bundler, in a dedicated terminal
 - Hit RUN button in Android studio to run the Android application (remember to start a simulator or connect an Android phone)
 
 ### iOS
 
 - `cd ios`
-- `pod install` to install pod dependencies
+- `pod update` to update and install pod dependencies
 - `cd ..` to come back to the root folder
-- `npm react-native run-ios` to start the metro bundler, in a dedicated terminal and run the iOS application (remember to start a simulator or connect an iPhone phone). Or you can start the project by click RUN button in XCode
+- `npx react-native run-ios` to start the metro bundler, in a dedicated terminal and run the iOS application (remember to start a simulator or connect an iPhone phone). Or you can start the project by click RUN button in XCode
 
 ## Useful documentation
 
