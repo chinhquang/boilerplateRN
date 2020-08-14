@@ -1,0 +1,1 @@
+The Service folder will contain files including API functions for your application to communicate with backend server
