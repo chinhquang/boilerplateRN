@@ -15,8 +15,8 @@ The boilerplate contains:
 ## Directory layout
 
 - [`src/Container`](src/Container): container components, i.e. the application's screens
-- [`src/image`](src/Assets): assets (image i.e logo, icon,....
-- [`src/Services`](src/Services): application services, e.g. API clients
+- [`src/image`](src/image): assets (image i.e logo, icon,....
+- [`src/Service`](src/Service): application services, e.g. API clients
 - [`src/Context`](src/Context): redux [Context Hook](https://reactjs.org/docs/context.html)
 - [`src/Theme`](src/Theme): includes color themes and localized string for multiple languages.
 
@@ -42,7 +42,7 @@ To create a new project using the boilerplate:
 
 - clone this repository
 - remove the previous git history: `rm -rf .git/`
-- rename the React Native project to your own project name: `npx react-native-rename -- <YourProjectName>` (the default name is `BoilerPlate`)
+- rename the React Native project to your own project name: `npx react-native-rename "<YourProjectName>"` (the default name is `BoilerPlate`)
 
 ## Running the project
 
