@@ -10,12 +10,12 @@ The boilerplate contains:
 - a [React Native](https://facebook.github.io/react-native/) (v**0.61.5**) application (in "[ejected](https://github.com/react-community/create-react-native-app/blob/master/EJECTING.md)" mode to allow using dependencies that rely on native code)
 - a [clear directory layout](#directory-layout) to provide a base architecture for your application
 - a [Vector icons libraries](https://github.com/oblador/react-native-vector-icons) to support an amount of diverse icons to your applications.
-- [React Navigation](https://reactnavigation.org/) (v3.11.2) with a [`NavigationService`](App/Services/NavigationService.js) to handle routing and navigation in the app, with a splash screen setup by default.
+- [React Navigation](https://reactnavigation.org/) (newest version) with a [`NavigationService`](App/Services/NavigationService.js) to handle routing and navigation in the app, with a splash screen setup by default.
 
 ## Directory layout
 
 - [`src/Container`](src/Container): container components, i.e. the application's screens
-- [`src/Assets`](src/Assets): assets (image, audio files, .
+- [`src/image`](src/Assets): assets (image i.e logo, icon,....
 - [`src/Services`](src/Services): application services, e.g. API clients
 - [`src/Context`](src/Context): redux [Context Hook](https://reactjs.org/docs/context.html)
 - [`src/Theme`](src/Theme): includes color themes and localized string for multiple languages.
