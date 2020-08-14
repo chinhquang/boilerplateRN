@@ -22,5 +22,7 @@ export const styles = StyleSheet.create({
         fontSize : 13 * widthRatio,
         textAlign : 'center',
 
-    }
+    },
+    iconContainer : {width : '40%', aspectRatio:1, marginVertical: 10 * widthRatio},
+    icon: {flex :1,resizeMode : 'contain',alignSelf : 'center'},
 });
