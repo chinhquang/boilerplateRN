@@ -17,7 +17,7 @@ The boilerplate contains:
 - [`src/Container`](src/Container): container components, i.e. the application's screens
 - [`src/image`](src/image): assets (image i.e logo, icon,....
 - [`src/Service`](src/Service): application services, e.g. API clients
-- [`src/Context`](src/Context): redux [Context Hook](https://reactjs.org/docs/context.html)
+- [`src/Context`](src/Context): react native [Context Hook](https://reactjs.org/docs/context.html)
 - [`src/Theme`](src/Theme): includes color themes and localized string for multiple languages.
 
 For more information on each directory, click the link and read the directory's README.
